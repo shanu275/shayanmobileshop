@@ -1,0 +1,5 @@
+#!/bin/bash
+sudo apt update -y && sudo apt upgrade -y 
+sudo apt install -y apache2 
+git clone https://github.com/shanu275/shayanmobileshop.git 
+sudo cp /shayanmobileshop/index.html /var/www/html/ 
